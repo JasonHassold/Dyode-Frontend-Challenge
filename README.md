@@ -22,7 +22,7 @@ Created static data objects for sections like the slider to build in the dynamic
 behavior even though there isn't a dynamic source to pull from
 
 
-In a production site I would pull in more optimized images at multiple sizes and load them
+In a production site I would pull in more optimized images at multiple sizes and load them app
 responsively through srcset or picture/source. 
 
 
