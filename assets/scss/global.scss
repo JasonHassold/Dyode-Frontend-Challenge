@@ -1,0 +1,52 @@
+:root {
+  --c-black: #000;
+  --c-white: #fff;
+  --c-light-grey: #EFEFEF;
+  --c-dark-grey: #303030;
+  --c-green: #10504F;
+  --c-dark-green: #0b3837;
+
+  --f-lato: lato, sans-serif;
+  --f-pacifico: pacifico, cursive;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+
+.btn {
+  font-family: var(--f-lato);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  background-color: var(--c-black);
+  color: var(--c-white);
+  text-decoration: none;
+  width: max-content;
+  padding: 1.4rem 2rem;
+  font-size: 1.4rem;
+  line-height: 1.214em;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: var(--c-dark-grey);
+  }
+}
+
+
+// Color 
+
+.text-green {
+  color: var(--c-green);
+}
+
+.text-white {
+  color: var(--c-white);
+}

@@ -1,0 +1,77 @@
+.collection-banner {
+  position: relative;
+
+  &__image {
+    display: flex;
+
+    img {
+      width: 100%;
+      height: auto;
+      min-height: 22.7rem;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    overflow: hidden;
+    background-color: var(--c-light-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.6rem 1rem 3.4rem;
+
+    @media (min-width: 768px) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: transparent;
+      align-items: start;
+      width: max-content;
+      margin-left: auto;
+      margin-right: 5.4rem;
+      margin-top: 2rem;
+    }
+  }
+
+  &__title {
+    font-family: var(--f-pacifico);
+    font-size: 2.6rem;
+    line-height: 4rem;
+    font-weight: 600;
+    color: var(--c-green);
+    margin: 0;
+
+    @media (min-width: 768px) {
+      color: var(--c-white);
+      font-size: 6rem;
+      line-height: 10.5rem;
+    }
+  }
+
+  &__subtitle {
+    font-family: var(--f-lato);
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: var(--c-green);
+    margin: 0;
+    margin-bottom: 2rem;
+
+    @media (min-width: 768px) {
+      color: var(--c-white);
+      font-size: 2.6rem;
+      line-height: 3.1rem;
+    }
+  }
+
+  .btn {
+    @media (min-width: 768px) {
+      background-color: var(--c-green);
+
+      &:hover {
+        background-color: var(--c-dark-green);
+      }
+    }
+  }
+}

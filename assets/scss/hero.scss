@@ -1,0 +1,130 @@
+.hero {
+  position: relative;
+
+  .splide {
+    &__slide {
+      width: 100%;
+      height: auto;
+
+      img {
+        width: 100%;
+        height: auto;
+        min-height: 22.7rem;
+        object-fit: cover;
+        object-position: right;
+      }
+    }
+
+    &__pagination {
+      bottom: 18rem;
+
+      @media (min-width: 768px) {
+        bottom: 0.5em;
+      }
+
+      &__page {
+        width: 0.8rem;
+        height: 0.8rem;
+        margin: 0.4rem;
+        opacity: 0.6;
+
+        @media (min-width: 768px) {
+          width: 2rem;
+          height: 2rem;
+          margin: 1rem;
+        }
+
+        &.is-active {
+          transform: none;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--c-light-grey);
+    padding: 1rem 1rem 3.8rem;
+    box-sizing: border-box;
+    width: 100%;
+
+    @media (max-width: 767.99px) {
+      color: var(--c-green);
+    }
+
+    @media (min-width: 768px) {
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 0 5rem;
+      height: 100%;
+      align-items: flex-start;
+      background-color: transparent;
+    }
+
+    @media (min-width: 768px) {
+      padding: 0 10rem;
+    }
+
+    @media (min-width: 1200px) {
+      padding: 0 20rem;
+    }
+
+
+    h1 {
+      font-family: var(--f-pacifico);
+      font-size: 2.6rem;
+      line-height: 4.6rem;
+      font-weight: 600;
+      margin: 0;
+
+      @media (min-width: 768px) {
+        font-size: 6rem;
+        line-height: 10.5rem;
+      }
+    }
+
+    p {
+      font-family: var(--f-lato);
+      font-size: 1.4rem;
+      margin: 0;
+      
+      @media (min-width: 768px) {
+        font-size: 2.6rem;
+      }
+    }
+
+    .btn {
+       margin-top: 1.4rem;
+
+      @media (min-width: 768px) {
+        margin-top: 2.5rem;
+      }
+    }
+  }
+
+  .mobile-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--c-light-grey);
+    padding: 1rem 1rem 3.8rem;
+    text-align: center;
+    color: var(--c-green);
+
+
+    p {
+      font-family: var(--f-lato);
+      
+      margin: 0;
+    }
+
+    .btn {
+     
+    }
+  }
+}

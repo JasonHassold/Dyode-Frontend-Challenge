@@ -1,0 +1,21 @@
+.promo-bar {
+  background-color: var(--c-black);
+  color: var(--c-light-grey);
+  font-family: var(--f-lato);
+  padding: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  @media (min-width: 576px) {
+    padding: 2rem;
+  }
+
+  span {
+    display: none;
+
+    @media (min-width: 576px) {
+      display: inline;
+    }
+  }
+}

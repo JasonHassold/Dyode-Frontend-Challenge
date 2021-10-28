@@ -1,0 +1,133 @@
+.collection-slider {
+  padding: 0 3.5rem 3rem;
+
+  @media (min-width: 768px) {
+    padding: 0 13rem 6.8rem;
+  }
+
+  h2 {
+    font-family: var(--f-pacifico);
+    font-size: 2.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--c-black);
+    margin: 0;
+    margin-bottom: 1rem;
+
+    @media (min-width: 768px) {
+      font-size: 6rem;
+      margin-bottom: 4rem;
+    }
+
+    span {
+      display: inline;
+
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
+  }
+
+  .splide__arrow {
+    background: transparent;
+    transition: opacity 0.2s ease;
+
+    &:disabled {
+      opacity: 0;
+    }
+
+    &--prev {
+      left: -2rem;
+
+      @media (min-width: 768px) {
+        left: -6rem;
+      }
+    }
+
+    &--next {
+      right: -2rem;
+
+      @media (min-width: 768px) {
+        right: -6rem;
+      }
+    }
+
+    svg {
+      fill: #000;
+      height: 1.2rem;
+      width: 0.6rem;
+
+      @media (min-width: 768px) {
+        height: 4.2rem;
+        width: 2.2rem;
+      }
+    }
+  }
+
+  .product-card {
+    margin-bottom: 2rem;
+    width: 100%;
+    text-decoration: none;
+
+    &__image {
+      width: 100%;
+      margin-bottom: 1rem;
+
+      @media (min-width: 768px) {
+        margin-bottom: 2rem;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    &__info {
+      text-align: center;
+      color: var(--c-black);
+    }
+
+    &__title {
+      font-family: var(--f-lato);
+      font-size: 1.6rem;
+      line-height: 1.9rem;
+      font-weight: 500;
+      margin: 0;
+      margin-bottom: 0.5rem;
+
+      @media (min-width: 768px) {
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+      }
+    }
+
+    &__type {
+      font-family: var(--f-lato);
+      font-size: 1.2rem;
+      line-height: 1.4rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin: 0;
+
+      @media (min-width: 768px) {
+        font-size: 1.6rem;
+        line-height: 1.9rem;
+      }
+    }
+
+    &__price {
+      font-family: var(--f-pacifico);
+      font-size: 1.8rem;
+      line-height: 3rem;
+      font-weight: 600;
+      margin: 0;
+      color: var(--c-green);
+
+      @media (min-width: 768px) {
+        font-size: 2.6rem;
+        line-height: 4rem;
+      }
+    }
+  }
+}
