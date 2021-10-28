@@ -1,6 +1,6 @@
 <template>
   <section class="collection-slider">
-    <h2><span>Shop </span>New Arrivals</h2>
+    <h2>Shop New Arrivals</h2>
 
     <div class="splide" ref="splide">
       <div class="splide__arrows">

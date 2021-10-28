@@ -1,6 +1,6 @@
 <template>
   <section class="promo-bar">
-    FREE SHIPPING ON ALL ORDERS<span> OVER $75</span>
+    FREE SHIPPING ON ALL ORDERS OVER $75
   </section>
 </template>
 

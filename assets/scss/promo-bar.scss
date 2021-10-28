@@ -10,12 +10,4 @@
   @media (min-width: 576px) {
     padding: 2rem;
   }
-
-  span {
-    display: none;
-
-    @media (min-width: 576px) {
-      display: inline;
-    }
-  }
 }

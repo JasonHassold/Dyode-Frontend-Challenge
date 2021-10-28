@@ -53,6 +53,7 @@ import UserIcon from '~/assets/icons/user.svg?inline'
 import ShoppingCartIcon from '~/assets/icons/shopping-cart.svg?inline'
 
 export default {
+  name: 'NavBar',
   components: {
     MobileMenuIcon,
     SearchIcon,

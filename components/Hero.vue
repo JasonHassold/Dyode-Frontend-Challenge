@@ -29,6 +29,7 @@
 import Splide from '@splidejs/splide'
 
 export default {
+  name: 'Hero',
   data() {
     return {
       splide: null,

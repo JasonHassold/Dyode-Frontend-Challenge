@@ -21,6 +21,7 @@
       display: flex;
       align-items: center;
       gap: 5.9rem;
+      margin-top: 2rem;
     }
   }
 
@@ -28,6 +29,10 @@
     display: flex;
     align-items: center;
     gap: 1.8rem;
+
+    @media (min-width: 992px) {
+      margin-top: 2rem;
+    }
   }
 
 
@@ -114,6 +119,7 @@
       margin-top: 2rem;
       text-align: left;
       text-transform: uppercase;
+      cursor: pointer;
     }
 
     &__links {

@@ -12,8 +12,7 @@
     <CollectionBanner/>
 
     <SignUp/>
+
+    <Footer/>
   </div>
 </template>
-
-<script>
-</script>

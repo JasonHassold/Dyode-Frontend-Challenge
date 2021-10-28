@@ -2,29 +2,36 @@
 
 ## Thoughts / Notes
 
-Found several mismatches between the desktop and mobile designs, it's unclear
-if these decisions were intentional or not.
+Added mobile menu, would have linked to add cart and a popup for the "Subscribe"
+button on mobile.
 
+
+Found several mismatches between the desktop and mobile designs, it's unclear
+if these decisions were intentional or not. I decided to take an constructive 
+approach by keeping the additional information. In most cases there was not a 
+reason I could think of for why the information shouldn't be consistent across
+devices. 
+
+- "FREE SHIPPING ON ALL ORDERS" mobile VS  "FREE SHIPPING ON ALL ORDERS OVER $75" desktop
 - "Shop New Arrivals" mobile VS "New Arrivals" desktop 
-  - kept distinction, maybe this was intentional to see if people would notice
 - "Everyday tees you need!" mobile VS "Everyday tees you need."
-  - went with "!", seemed like a typo 
+- Follow Us Twitter icon mobile VS No Twitter icon desktop 
 
 
 Created static data objects for sections like the slider to build in the dynamic
 behavior even though there isn't a dynamic source to pull from
 
 
-Would have added responsive image loading through srcset or picture/source if 
-this was a production site. 
+In a production site I would pull in more optimized images at multiple sizes and load them
+responsively through srcset or picture/source. 
 
 
 The Pacifico font I'm pulling in seems a little different than the version used 
 in the design. There are subtle differences in the shapes of the letters and the
 font size seems to be smaller than the design even at the same pixel values. 
-For a real site I would either get the exact font used in the figma design or 
-find an appropriate amount to scale up the fonts by.
- 
+For a real site I would either get the exact font files used in the figma design, 
+but in this case I decided to just eyeball how much to increase the font by.
+
 
 
 ## Build Setup
