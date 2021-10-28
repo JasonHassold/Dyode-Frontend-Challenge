@@ -1,7 +1,7 @@
 <template>
   <section class="collection-banner">
     <div class="collection-banner__image">
-      <img src="~/assets/images/collection-banner.jpg" width="2160" height="957" alt="">
+      <img src="~/assets/images/collection-banner.jpg" width="2160" height="957" loading="lazy" alt="">
     </div>
     <div class="collection-banner__content">
       <h1 class="collection-banner__title">Our Favorite Tees</h1>

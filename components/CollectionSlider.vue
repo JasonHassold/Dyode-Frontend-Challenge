@@ -18,7 +18,7 @@
             <NuxtLink class="product-card" to="/" >
               <div class="product-card__image">
                 <img :src="product.image.src" :width="product.image.width" 
-                  :height="product.image.height" alt="">
+                  :height="product.image.height" loading="lazy" alt="">
               </div>
               <div class="product-card__info">
                 <p class="product-card__title">

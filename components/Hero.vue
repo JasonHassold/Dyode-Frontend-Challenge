@@ -4,7 +4,7 @@
       <div class="splide__track">
         <div class="splide__list">
           <div v-for="content in slideContents" class="splide__slide">
-            <img :src="content.image.src" alt=""
+            <img :src="content.image.src" alt="" loading="lazy"
               :width="content.image.width" :height="content.image.height">
 
             <div class="content" :class="[`text-${content.textColorOverImg}`]">
