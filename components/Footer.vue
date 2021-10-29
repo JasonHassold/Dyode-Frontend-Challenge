@@ -82,7 +82,7 @@ export default {
           ],
         },
         {
-          header: 'Companyz',
+          header: 'Company',
           links: [
             {
               text: 'About Us',
