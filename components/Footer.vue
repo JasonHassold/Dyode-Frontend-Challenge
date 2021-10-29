@@ -108,7 +108,6 @@ export default {
   methods: {
     toggleCollapse(e) {
       if (window.innerWidth < 576) {
-        console.log(e)
         const target = e.currentTarget
         const linklist = target.nextElementSibling
 
